@@ -76,7 +76,7 @@ spec:
             - "--tableHost"
             - "0.0.0.0"
             {{- end }}
-            {{- if .Values.skipApiVersionCheck }}
+            {{- if .Values.config.skipApiVersionCheck }}
             - "--skipApiVersionCheck"
             {{ -end }}
           ports:
