@@ -24,6 +24,7 @@ config:
     enabled: true
   tables:
     enabled: true
+  skipApiVersionCheck: true
 
 statefulset:
   affinity: {}
